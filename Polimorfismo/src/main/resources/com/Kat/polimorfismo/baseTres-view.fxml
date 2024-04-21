@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #19C4CC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Kat.polimorfismo.controllers.BaseTresController">
+   <children>
+      <Label layoutX="359.0" layoutY="47.0" text="Universidad 3" textFill="#fffefe">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font></Label>
+      <TableView fx:id="studentsTable" layoutX="333.0" layoutY="131.0" prefHeight="271.0" prefWidth="294.0">
+         <columns>
+            <TableColumn fx:id="matriculaColumn" prefWidth="148.0" text="Matricula" />
+            <TableColumn fx:id="nombreColumn" prefWidth="145.0" text="Nombre" />
+         </columns>
+      </TableView>
+      <Button layoutX="646.0" layoutY="433.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedCerrar" prefHeight="42.0" prefWidth="89.0" style="-fx-background-color: #0C9BA1;" text="Cerrar" textFill="#fafafa">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

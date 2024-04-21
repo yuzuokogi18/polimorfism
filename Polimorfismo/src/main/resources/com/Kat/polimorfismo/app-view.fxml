@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #19C4CC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Kat.polimorfismo.controllers.App">
+   <children>
+      <Label layoutX="293.0" layoutY="34.0" text="Sistema de Universidades" textFill="#fafafa">
+         <font>
+            <Font name="Arial Narrow" size="36.0" />
+         </font></Label>
+      <Button fx:id="base1" layoutX="94.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedBase1" prefHeight="64.0" prefWidth="207.0" style="-fx-background-color: #0C9BA1;" text="Base de datos 1" textFill="#efefef" />
+      <Button fx:id="base2" layoutX="374.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedBase2" prefHeight="64.0" prefWidth="207.0" style="-fx-background-color: #0C9BA1;" text="Base de datos 2" textFill="WHITE" />
+      <Button fx:id="base3" layoutX="629.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedBase3" prefHeight="64.0" prefWidth="207.0" style="-fx-background-color: #0C9BA1;" text="Base de datos 3" textFill="WHITE" />
+      <Button fx:id="closeButton" layoutX="581.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedCerrar" prefHeight="42.0" prefWidth="156.0" style="-fx-background-color: #0C9BA1;" text="Cerrar aplicación" textFill="WHITE" />
+      <Button fx:id="addButton" layoutX="177.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedAñadir" prefHeight="42.0" prefWidth="156.0" style="-fx-background-color: #0C9BA1;" text="Añadir" textFill="WHITE" />
+      <Button fx:id="updataButton" layoutX="383.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedUpdata" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #0C9BA1;" text="Actualizar" textFill="WHITE" />
+   </children>
+</AnchorPane>
